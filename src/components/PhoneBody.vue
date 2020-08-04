@@ -1,6 +1,6 @@
 <template>
   <div class='phone-body'>
-    <div v-if='step === 1' class='feed' v-dragscroll.y = "!touchDevice">
+    <div v-if='step === 1' class='feed' v-dragscroll.y>
       <vuegram-post v-for='post in posts'
         :post='post'
         :key='posts.indexOf(post)'>
@@ -39,9 +39,6 @@
 <script>
 import VuegramPost from './VuegramPost';
 import FilterType from './FilterType';
-
-
-touchDevice: ('ontouchstart' in window || navigator.msMaxTouchPoints) || false
 
 export default {
   name: 'PhoneBody',
