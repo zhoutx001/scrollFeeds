@@ -11,13 +11,13 @@
         :class='selectedFilter'
         :style="{ backgroundImage: 'url(' + image + ')' }">
       </div>
-      <div class='filter-container' v-dragscroll.x>
+      <!-- <div class='filter-container' v-dragscroll.x>
         <filter-type v-for='filter in filters'
           :filter='filter'
           :image='image'
           :key='filters.indexOf(filter)'>
         </filter-type>
-      </div>
+      </div> -->
     </div>
     <div v-if='step === 3'>
       <div class='selected-image'
@@ -39,6 +39,9 @@
 <script>
 import VuegramPost from './VuegramPost';
 import FilterType from './FilterType';
+
+
+touchDevice: ('ontouchstart' in window || navigator.msMaxTouchPoints) || false
 
 export default {
   name: 'PhoneBody',

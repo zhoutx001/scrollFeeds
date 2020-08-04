@@ -6,7 +6,6 @@ import VueDragscroll from 'vue-dragscroll';
 import App from './App';
 
 Vue.use(VueDragscroll);
-touchDevice: ('ontouchstart' in window || navigator.msMaxTouchPoints) || false
 
 
 
