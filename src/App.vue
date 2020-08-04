@@ -112,6 +112,8 @@ export default {
     'phone-body': PhoneBody,
   },
 };
+
+touchDevice: ('ontouchstart' in window || navigator.msMaxTouchPoints) || false
 </script>
 
 <style lang='scss' src='./styles/app.scss'>

@@ -7,6 +7,8 @@ import App from './App';
 
 Vue.use(VueDragscroll);
 
+
+
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
