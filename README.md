@@ -1,8 +1,8 @@
-<div align="center">
+<!-- <div align="center">
   <p>
     <img src="https://i.imgur.com/mtW9Z8Z.png" width="550"/>
   </p>
-</div>
+</div> -->
 
 ## Instagram Clone - Stage (Complete)
 
