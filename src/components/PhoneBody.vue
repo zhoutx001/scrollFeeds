@@ -1,6 +1,6 @@
 <template>
   <div class='phone-body'>
-    <div v-if='step === 1' class='feed' v-dragscroll.y>
+    <div v-if='step === 1' class='feed' v-dragscroll.y = "!touchDevice">
       <vuegram-post v-for='post in posts'
         :post='post'
         :key='posts.indexOf(post)'>

@@ -113,7 +113,7 @@ export default {
   },
 };
 
-touchDevice: ('ontouchstart' in window || navigator.msMaxTouchPoints) || false
+
 </script>
 
 <style lang='scss' src='./styles/app.scss'>
