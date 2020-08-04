@@ -1,7 +1,7 @@
 export default [
   {
-    username: 'socleansofreshh',
-    userImage: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1211695/me_3.jpg',
+    username: 'shader01',
+    userImage: 'https://images-na.ssl-images-amazon.com/images/I/51UW1849rJL._AC_SX466_.jpg',
     postImage:
       'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1211695/tropical_beach.jpg',
     likes: 36,
@@ -10,8 +10,8 @@ export default [
     filter: 'perpetua',
   },
   {
-    username: 'djirdehh',
-    userImage: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1211695/me2.png',
+    username: 'shader02',
+    userImage: 'https://as2.ftcdn.net/jpg/01/25/23/29/500_F_125232915_XQnESjxiX1RYJceuXgjpnq34Ilo4F4ed.jpg',
     postImage:
       'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1211695/downtown.jpg',
     likes: 20,
@@ -20,9 +20,9 @@ export default [
     filter: 'clarendon',
   },
   {
-    username: 'puppers',
+    username: 'shader03',
     userImage:
-      'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1211695/pug_personal.jpg',
+      'https://previews.123rf.com/images/samcorp/samcorp1610/samcorp161000109/64631117-techno-abstract-background-glitch-art-style-digital-pixel-noise-computer-screen-signal-error-flow-of.jpg',
     postImage:
       'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1211695/puppers.jpg',
     likes: 49,
